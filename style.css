@@ -1,0 +1,385 @@
+body {
+    font-family: monospace;
+    background-color: #F7F6F6;
+    margin: -30px 0px;
+    color: #203F54;
+}
+.polosa2 {
+    margin: 0px 25px 0px 430px;
+    height: 25px;
+    border-top: 1px solid #508EBF;
+}
+.nav {
+    background-color: #203F54;
+    padding: 25px 35px 0px 35px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 340px;
+}
+.logo {
+    float: left;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.nav h1 {
+    font-family: serif;
+    font-weight: lighter;
+    color: #DC97A5;
+    font-size: 32px;
+    text-align: right;
+    width: 270px;
+    height: 83px;
+}
+.nav article {
+    border-bottom: 1px solid #F7F6F6;
+}
+.nav nav a{
+    text-decoration: none;
+    color: #F7F6F6;
+    display: block;
+    margin: 25px 0px 25px 0px;
+    font-size: 25px;
+    transition: 0.2s;
+}
+.nav nav a:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.nav nav a:focus {
+    text-shadow: 1px 1px 10px #F7F6F6;
+}
+
+.osoba {
+    font-weight: bold;
+     color: #CCDBEA;
+}
+header {
+            margin: 0px;
+            margin-top: -43px;
+            background: url('https://learn.logikaschool.com/uploads/student/2887252/664d04a955093.jpg') no-repeat 50% 50%;
+            background-size: cover;
+            font-family: sans-serif;
+            height: 140px;
+}
+header h1 {
+    margin-bottom: 0px;
+    color: #F7F6F6;
+    margin-left: 450px;
+    font-weight: 100;
+    font-family: serif;
+    font-size: 64px;
+    padding-top: 20px;
+    text-shadow: 4px -8px 0px #2d2d2d;
+}
+
+header h2 {
+    margin-left: 455px;
+    margin-top: 5px;
+    font-weight: 100;
+    font-size: 24px;
+    color: #F7F6F6;
+    font-family: serif;
+}
+
+main {
+    margin: 25px 25px 15px 430px;
+}
+main p {
+ text-align: left;
+ font-size: 18px;
+ margin-top: 60px;
+ margin-right: 300px;
+}
+
+
+.project {
+    margin-top: -10px;
+    margin-left: 410px;
+    padding: 30px 49px 30px 49px;
+    background-color: #203F54;
+}
+
+.project nav {
+    text-align: center;
+}
+
+.project nav div {
+    margin-left: -3px;
+    margin-right: -3px;
+    display: inline-block;
+    padding: 0px 210px 0px 210px;
+    border-right: 1px solid rgba(220, 151, 165, 0.5);
+    border-left: 1px solid rgba(220, 151, 165, 0.5);
+}
+
+.project nav a {
+    transition: 0.2s;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #DC97A5;
+}
+
+.project nav a:hover {
+    display: block;
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+
+.project a:focus {
+    color: #F7F6F6;
+    text-shadow: 1px 1px 10px #F7F6F6;
+}
+
+.project-osoba {
+    font-weight: bolder;
+}
+
+
+.lore {
+    font-style: italic;
+    color: #F7F6F6;
+    float: right;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 64px;
+    position: absolute;
+    top: -26px;
+    right: 47px;
+    text-shadow: 4px -8px 0px #2d2d2d;
+}
+
+.inf {
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    margin: 115px 50px 0px 50px;
+    color: #508EBF;
+}
+
+i {
+    color: #DC97A5;
+    transition: 0.2s;
+    font-size: 22px;
+}
+
+i:hover {
+    display: inline-block;
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.perelik {
+    background-color: rgba(220, 151, 165, 0.6);
+    border-left:2px solid #DC97A5;
+    border-right:2px solid #DC97A5;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 60px 10px 60px;
+    text-align: center;
+    width: 360px;
+}
+.perelik nav a {
+    display: block;
+    margin-bottom: 15px;
+    color: #203F54;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.perelik nav a:hover{
+    transition: 0.1s;
+transform: scale(1.1);
+color: #508EBF;
+}
+.perelik h5 {
+    margin-top: 60px;
+    color: #F7F6F6;
+    font-size: 12px;
+}
+
+main h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: #CCDBEA;
+    text-align: center;
+}
+
+.polosu {
+    margin: 45px 200px 0px 200px;
+    border-top: 1px solid #508EBF;
+    border-bottom: 1px solid #508EBF;
+    padding-bottom: 75px;
+}
+
+.one img {
+    width: 300px;
+    transition: 0.1s;
+    z-index: 1;
+}
+
+.block:hover {
+    z-index: 3;
+    transition: 0.3s;
+    transform: scale(2) translateX(-70px);
+}
+
+.pink {
+    margin-top: 50px;
+    color: #DC97A5;
+    font-size: 35px;
+}
+
+.one {
+    margin-top: 15px;
+    display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.block div {
+    z-index: 2;
+    background-color: #F7F6F6;
+    border: 10px outset #DC97A5;
+    color: #203F54;
+    width: 240px;
+    height: 385px;
+    transition: 0.5s;
+    margin-left: -300px;
+    padding: 20px;
+    opacity: 0;
+}
+
+.block div:focus {
+    transition: 0.5s;
+    z-index: 4;
+    opacity: 1;
+}
+
+.block div p {
+    margin-top: 10px;
+    margin-left: -8px;
+    width: 260px;
+    font-size: 7px;
+}
+
+.block {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.pink2 {
+    letter-spacing: 2px;
+    color: #508EBF;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: cursive;
+}
+
+.image2 {
+    margin-top: 100px;
+        background: url('https://learn.logikaschool.com/uploads/student/2887252/6638f050f07a3.png') no-repeat 50% 50%;
+        background-size: contain;
+        width: 135px;
+        height: 135px;
+        margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 45px;
+}
+.image2 p {
+    width: 135px;
+    color: #DC97A5;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.top {
+    color: #DC97A5;
+    font-size: 16px;
+    text-decoration: none;
+        transition: 0.5s;
+        font-family: monospace;
+        margin-bottom: 415px;
+}
+.top:hover {
+    transition: 0.5s;
+    color: #be6677;
+}
+
+footer {
+    background-color: #508EBF;
+    padding: 20px 15px 15px 420px;
+    height: 154px;
+}
+footer h1 {
+    color: #F7F6F6;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0px;
+}
+.footer {
+    position: absolute;
+    margin-top: 15px;
+    font-size: 10px;
+}
+.footer h3 {
+    color: #F7F6F6;
+    font-weight: lighter;
+    margin: 0px;
+    font-size: 11px;
+}
+footer article {
+    position: absolute;
+    width: 127px;
+}
+.Lisa {
+    left: 140px;
+}
+.etc {
+    left: 299px;
+    margin-top: 16px;
+}
+footer a {
+    color: #CCDBEA;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.I {
+    border-left: 1px solid #CCDBEA;
+    padding-left: 10px;
+}
+.social img {
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.social img:hover {
+    transition: 0.3s;
+    border: 5px double #F7F6F6;
+}
+.social {
+    position: absolute;
+    left: 810px;
+    top: 80px;
+        display: inline-flex;
+}
+footer p {
+    width: 200px;
+    font-size: 10px;
+    position: absolute;
+    color: #DC97A5;
+    left: 935px;
+    bottom:15px;
+}
